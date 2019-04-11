@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div class="container">
-    <GetEmprestimo />
-    <Emprestimos />
-  </div>
+      <GetEmprestimo />
+      <Emprestimos />
+    </div>
   </div>
 </template>
 

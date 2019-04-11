@@ -11,8 +11,8 @@ const getters = {
 };
 
 const actions = {
-    async getEmprestimo({commit,id}){
-        const response = await axios.get(`http://localhost:57978/api/Emprestimo/508287534`);        
+    async getEmprestimo({commit},id){
+        const response = await axios.get(`http://localhost:57978/api/Emprestimo/${id}`);        
         commit('setEmprestimos', response.data);
         console.log(response.data);
     },
